@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register Form</title>
+
+        <style>
+            
+             @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+            body{
+                font-family: "Poppins", sans-serif;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                width: 50%;
+                height: 500px;
+                background-color:rgba(0, 255, 255, 0.664);
+                border-radius: 10px;
+                padding: 10px;
+                margin: auto;
+                margin-top: 10px;
+            }
+
+            h3{
+                text-align: center;
+            }
+
+            label{
+                margin: 0px;
+                font-size: 13px;
+            }
+
+            div{
+                text-align: center;
+            }
+
+            input{
+                margin: 0px;
+            }
+
+            .input_field{
+                height: 30px;
+                border-radius: 10px;
+                outline: none;
+                border: none;
+            }
+
+            button{
+                background-color: green;
+                color: white;
+            }
+
+
+
+        </style>
+
+</head>
+
+<body>
+    <form action="">
+        <h3 id="title" class="titleC">REGISTER NOW</h3>
+
+        <label for="first name">First name</label>
+        <input id="first name" type="text" class="input_field" placeholder="Enter First name" >
+
+        <label for="last name">First name</label>
+        <input id="last name" type="text" class="input_field" placeholder="Enter Last Name" >
+
+        <label for="email">Email address</label>
+        <input id="email" type="email" class="input_field" placeholder="Enter Email">
+
+        <label for="password">Password</label>
+        <input id="password" type="password" class="input_field" placeholder="Enter password" >
+
+        <button id="Submit_btn" class="input_field" >Submit</button>
+
+        <div class="row">
+            <p style="text-align: center; font-size: 13px;">you already have an account?</p>
+            <a style="text-align: center; font-size: 13ax;" href="./log in.html">Log in</a>
+        </div>
+    </form> 
+
+</body>
+</html>
